@@ -56,9 +56,26 @@ body{
 }
 
 /* Form section (Everything under "sign the petition" */
-.Form h3{
+.page h3{
     color: red;
     text-align: center;
     font-weight: bold;
     font-size: 30px;
+}
+
+.Form{
+    flex-direction: column;
+    display: flex;
+    gap: 19px;
+    color: black;
+}
+
+.Form button{
+    color: white; 
+    background-color: blue;
+    padding: 10px;
+}
+
+.Form input{
+    padding: 10px;
 }
