@@ -1,0 +1,64 @@
+/* Navbar styling */
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav-buttons{
+    display: flex;
+    gap: 30px;
+}
+
+
+
+/* Navbar words */
+.nav-buttons a{
+    color: white;
+    text-decoration: none; /* No underline */
+}
+
+
+/* Creates the rectangular page */
+body{
+    margin: 0;
+    background: lightgray;
+}
+
+.page{
+    max-width: 900px;
+    margin: 40px auto;
+    background: white; 
+    padding: 30px;
+}
+
+.page h1{
+    color: navy; 
+    text-align: center;
+}
+
+.imgOnTheRight{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px
+}
+.imgOnTheRight img{
+    height: auto;
+  
+    
+}
+
+.imgOnTheRight h2{
+    font-size: 22px;
+    font-weight: normal;
+    margin-right: 20px;
+}
+
+/* Form section (Everything under "sign the petition" */
+.Form h3{
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
