@@ -1,4 +1,6 @@
+/*--------------------------------------*/
 /* Navbar styling */
+/*--------------------------------------*/
 .navbar{
     background-color: black;
     display: flex;
@@ -13,14 +15,20 @@
 
 
 
-/* Navbar words */
+/* Navbar text */
 .nav-buttons a{
     color: white;
     text-decoration: none; /* No underline */
+    font-size: larger;
 }
 
+.nav-buttons:hover{
+    text-decoration: underline;
+}
 
+/*--------------------------------------*/
 /* Creates the rectangular page */
+/*--------------------------------------*/
 body{
     margin: 0;
     background: lightgray;
@@ -28,7 +36,7 @@ body{
 
 .page{
     max-width: 900px;
-    margin: 40px auto;
+    margin:40px auto;
     background: white; 
     padding: 30px;
 }
@@ -55,7 +63,11 @@ body{
     margin-right: 20px;
 }
 
+
+
+/*-----------------------------------------------------------*/
 /* Form section (Everything under "sign the petition" */
+/*-----------------------------------------------------------*/
 .page h3{
     color: red;
     text-align: center;
@@ -74,8 +86,44 @@ body{
     color: white; 
     background-color: blue;
     padding: 10px;
+    font-size: medium;
+}
+
+.Form button:hover{
+    background-color: navy;
 }
 
 .Form input{
     padding: 10px;
 }
+
+
+/*--------------------------------------*/
+/* The 'signatures' portion of the page */
+/*--------------------------------------*/
+
+.Signatures{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.Signatures th{
+    text-align: left;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    background-color: lightgray;
+    padding: 10px;
+
+}
+
+.Signatures td{
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    padding: 10px;
+
+}
+
